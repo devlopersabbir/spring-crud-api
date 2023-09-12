@@ -32,9 +32,9 @@ public class ProductService {
     }
 
     // get product by name
-    public Product getSingleProductByName(String name) {
-        return repository.findByName(name);
-    }
+//    public Product getSingleProductByName(String name) {
+//        return repository.findByName(name);
+//    }
 
     // get single product and delete
     public String deleteProduct(int id) {
